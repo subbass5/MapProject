@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blur">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:elevation="1dp"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/iconblur" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/txtHader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_weight="0.24"
+            android:fontFamily="sans-serif"
+            android:text="@string/txtHader"
+            android:textColor="@android:color/background_light"
+            android:textSize="50sp" />
+
+        <TextView
+
+            android:id="@+id/txtStatusCar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="59dp"
+            android:layout_marginTop="170dp"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:orientation="horizontal"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btngoViewmap"
+                android:layout_width="wrap_content"
+                android:layout_height="65dp"
+                android:backgroundTint="@color/common_google_signin_btn_text_light_disabled"
+                android:text="@string/btnGotomap"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                android:layout_weight="0.12" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btnSuccess"
+                android:layout_width="wrap_content"
+                android:layout_height="65dp"
+                android:backgroundTint="@color/common_google_signin_btn_text_light_disabled"
+                android:text="@string/btnSuccess"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                />
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnGoHistory"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:backgroundTint="@color/common_google_signin_btn_text_light_disabled"
+            android:text="@string/btnGoHistory"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+    </ScrollView>

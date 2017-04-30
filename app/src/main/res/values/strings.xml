@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Car GPS</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="btnGotomap">แสดงบนแผนที่</string>
+    <string name="txtHader">CAR GPS APP</string>
+    <string name="btnSuccess">รับทราบแล้ว</string>
+    <string name="btnGomain">กลับสู่หน้าหลัก</string>
+    <string name="btnGoHistory">ดูประวัติย้อนหลัง</string>
+</resources>
